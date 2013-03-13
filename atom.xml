@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[0ther stuFF]]></title>
   <link href="http://r3nya.github.com/atom.xml" rel="self"/>
   <link href="http://r3nya.github.com/"/>
-  <updated>2013-03-14T02:10:20+04:00</updated>
+  <updated>2013-03-14T02:59:57+04:00</updated>
   <id>http://r3nya.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Andrew Makarov aka r3nya]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world!]]></title>
+    <link href="http://r3nya.github.com/blog/2013/03/14/hello-world%21/"/>
+    <updated>2013-03-14T02:25:00+04:00</updated>
+    <id>http://r3nya.github.com/blog/2013/03/14/hello-world!</id>
+    <content type="html"><![CDATA[<h3>Всем привет!</h3>
+
+<p>Наконец-то дошли руки, чтобы запилить ещё один никому не нужный блог. :)</p>
+
+<p>Надеюсь, что буду писать сюда про что-нибудь интересное …</p>
+
+<p>PS: <a href="https://twitter.com/C1nde">C1nde</a>, я сделал это!</p>
+]]></content>
+  </entry>
   
 </feed>
