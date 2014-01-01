@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Чулан
+tagline:          'A Jekyll theme'
+description:      'Заметки, небольшие статьи и просто ерунда от <a href="https://twitter.com/r3nya" target="_blank">@r3nya</a>.'
+url:              http://hyde.getpoole.com
+
+author:
+  name:           'Andrey Makarov'
+  url:            https://twitter.com/r3nya
+
+paginate:         5
+
+# Custom vars
+
+contacts:             http://r3nya.ru
