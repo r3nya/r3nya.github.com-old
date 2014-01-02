@@ -1,9 +1,7 @@
-# Original idea by MattHall
-# https://gist.github.com/MattHall/1801090
 # usage rake new_post title="my awesome title"
 
 require 'date'
-
+desc 'Create a post'
 task :new_post do
   title = ENV['title']
   path = "_posts/#{Date.today}-#{title.downcase.gsub(/[^[:alnum:]]+/, '-')}.md"
@@ -21,4 +19,13 @@ task :new_post do
       file.puts "[link to this post]({% post_url #{Date.today}-#{title.downcase.gsub(/[^[:alnum:]]+/, '-')} %})"
     end
   end
+end
+
+desc 'Clean up generated site'
+task :clean do
+  cleanup
+end
+
+def cleanup
+  sh 'rm -rf _site'
 end
