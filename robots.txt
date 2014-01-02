@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://r3nya.github.com/sitemap.xml 
